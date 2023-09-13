@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "SY_HT";
+    /* IE6-IE8 */
+    src:
+        url("../font/NotoSansHans-Regular.otf") format("woff"),
+
+        url("../font/NotoSansHans-Regular.otf");
+}
+@font-face {
+    font-family: "pingFang_medium";
+    /* IE6-IE8 */
+    src:
+        url("../font/PingFang-Medium.ttf") format("woff"),
+
+        url("../font/PingFang-Medium.ttf");
+}
+@font-face {
+    font-family: "qy";
+    /* IE6-IE8 */
+    src:
+        url("../font/qy.ttc") format("woff"),
+
+        url("../font/qy.ttc");
+}
+
+html,body {
+    font-family: "pingFang_medium";
+}

@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "outDir": "build",
+    "target": "ES2020",
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "suppressImplicitAnyIndexErrors": true, // 关闭部分语法检测 如 Object[key] 在vue模板中，一直报错
+    "ignoreDeprecations":"5.0",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "allowJs": true,
+  },
+  "include": ["src/**/*", "src/**/*.vue"],
+  "exclude": ["node_modules","build/**/*"]
+}
